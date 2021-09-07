@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ocrapp"
+version = "0.1.0"
+description = ""
+authors = ["Vasiliy <vkraskov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Pillow = "^8.3.2"
+
+[tool.poetry.dev-dependencies]
+Pillow = "^8.3.2"
+tesseract = "^0.1.3"
+requests = "^2.26.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
