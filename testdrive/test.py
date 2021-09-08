@@ -3,7 +3,10 @@ import json
 
 import requests
 
-api = 'http://localhost:8000/image/text'
+# kubectl port-forward -n user1 svc/ocrapp 8080:80 --address 192.168.1.184
+#
+#api = 'http://localhost:8000/image/text'
+api = 'http://k-master.podbox.io:8080/image/text'
 #api = 'http://ocrapp.podbox.io/image/text'
 
 #image_file = 'phototest.tif'
